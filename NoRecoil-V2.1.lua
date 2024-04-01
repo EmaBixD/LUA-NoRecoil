@@ -11,12 +11,12 @@
 indiceCorrente = 1
 
 OnOffScript = "NumLock" -- "CapsLock" "ScrollLock" "NumLock"
-OnOffRapidfire = "NumLock" -- "CapsLock" "NumLock"
+OnOffRapidfire = "NumLock"
 ShootButton = 1
 AimButton = 3
 RapidfireButton = 5
 MinDelay = 1 -- only affects when delay is on 0
-MaxDelay = 10 -- only affects when delay is on 0
+MaxDelay = 10
 
 ----------------------------Presets - If Delay is 0 turn on random delay---------------------------
 
@@ -74,7 +74,7 @@ function OnEvent(event, arg)
         
     end
 
-    if event == "MOUSE_BUTTON_PRESSED" and arg == 3 and IsModifierPressed("lctrl") and not IsKeyLockOn("scrolllock") then
+    if event == "MOUSE_BUTTON_PRESSED" and arg == 3 and IsModifierPressed("lctrl") then
         indiceCorrente = (indiceCorrente % #valori) + 1
         base(valori[indiceCorrente].nome, valori[indiceCorrente].XStrenght, valori[indiceCorrente].YStrenght, valori[indiceCorrente].Delay)
     end
