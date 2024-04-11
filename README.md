@@ -1,5 +1,7 @@
 # [LUA-NoRecoil](https://github.com/EmaBixD/LUA-NoRecoil)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f152584307604eea9aa423fe4e45245f)](https://app.codacy.com/gh/EmaBixD/LUA-NoRecoil?utm_source=github.com&utm_medium=referral&utm_content=EmaBixD/LUA-NoRecoil&utm_campaign=Badge_Grade)
+
 NoRecoil scripts 100% working and safe for Logitech G HUB software and mouses.
 
 ![preview](https://i.imgur.com/NYRuZWZ_d.webp?maxwidth=760&fidelity=grand)
